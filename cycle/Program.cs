@@ -8,9 +8,9 @@ double degree = Math.Pow(A, B);
 while(true)
 {
 Console.WriteLine($"{A}, {B} -> {degree}");
-return;
-
+break;
 }
+
 
 double ReadInt(string message)
 {
