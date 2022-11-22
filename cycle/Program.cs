@@ -5,10 +5,11 @@
 double A = ReadInt("Введите число А ");
 double B = ReadInt("Введите число B ");
 double degree = Math.Pow(A, B);
-while( B > 0)
+while(true)
 {
 Console.WriteLine($"{A}, {B} -> {degree}");
 return;
+
 }
 
 double ReadInt(string message)
